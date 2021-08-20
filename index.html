@@ -12,10 +12,19 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/mystyle.css">
     </head>
     <body id="page-top">
+
+        <!--fab-->
+
+        <div class="icon-whatsapp">
+            <a class="social-icon icon-fab" href="https://api.whatsapp.com/send?phone=5561996516468" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -44,8 +53,8 @@
                         <span class="text-primary">Almeida</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Av. Central, Bloco 1626, Casa 05, Núcleo Bandeirante, Brasília, 71710040 · (61) 996516468 ·
-                        <a href="mailto:almeidabg11@gmail.com">almeidabg11@gmail.com</a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Av. Central, Bloco 1626, Casa 05, Núcleo Bandeirante, Brasília" target="_blank"> Av. Central, Bloco 1626, Casa 05, Núcleo Bandeirante, Brasília, 71710040 </a> · (61) 996516468 ·
+                        <a href="mailto:almeidabg11@gmail.com" target="_blank">almeidabg11@gmail.com</a>
                     </div>
                     <p class="lead mb-5">Me chamo Bruno Almeida de Guimarães e tenho 20 anos. Faço Ciência da Computação no CEUB (campus de Taguatinga) no período da manhã e estou atualmente no 6° semestre. Busco novos desafios em minha carreira e uma colocação no mercado, pois desejo continuar a desenvolver minhas habilidades, aprender cada vez mais e colaborar com meus conhecimentos para a construção de grandes resultados. Busco por vagas de emprego/estágio.</p>
                     <div class="social-icons">
@@ -58,7 +67,7 @@
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
-                <div class="resume-section-content">
+                <div data-aos="zoom-in" class="resume-section-content ">
                     <h2 class="mb-5">Cursos Complementares</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -169,7 +178,7 @@
             <hr class="m-0" />
             <!-- Education-->
             <section class="resume-section" id="education">
-                <div class="resume-section-content">
+                <div data-aos="zoom-in"class="resume-section-content">
                     <h2 class="mb-5">Educação</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -198,7 +207,7 @@
             <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">
-                <div class="resume-section-content">
+                <div data-aos="zoom-in" class="resume-section-content">
                     <h2 class="mb-5">Principais Competências</h2>
                     <div class="subheading mb-3">Programação, Linguagens e Ferramentas</div>
                     <ul class="list-inline dev-icons">
@@ -232,7 +241,7 @@
             <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
-                <div class="resume-section-content">
+                <div data-aos="zoom-in" class="resume-section-content">
                     <h2 class="mb-5">Interesses</h2>
                     <p>Tenho interesses por diversas áreas dentro do ramo de Tecnologia, gosto sempre de aprender coisas novas. Busco oportunidades para que eu possa crescer profissionalmente, ampliando meus conhecimentos, para que eu possa também fazer diferença no mercado de trabalho.</p> <br>
                     <p>Tecnologia(Banco de Dados, Programação, Desenvolvimento WEB/MOBILE/GAMES e Análise) <br>
@@ -244,15 +253,15 @@
             <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
-                <div class="resume-section-content">
+                <div data-aos="zoom-in" class="resume-section-content">
                     <h2 class="mb-5">Contato</h2>
                     <p>
                         Endereço: Av.Central, Bloco 1625, Casa 05, Núcleo Bandeirante, Brasília, 71710040 <br>
-                        Email: <a href="mailto:almeidabg11@gmail.com">almeidabg11@gmail.com</a> <br>
+                        Email: <a href="mailto:almeidabg11@gmail.com" target="_blank">almeidabg11@gmail.com</a> <br>
                         Celular: +55 (61) 99651-6468 <br>
                         Estado Civil: Solteiro <br>
-                        LinkedIn: <a href="https://www.linkedin.com/in/bruno-almeida-404993212/">Bruno</a><br>
-                        GitHub: <a href="https://github.com/almeidaa11">almeidaa11</a> <br>
+                        LinkedIn: <a href="https://www.linkedin.com/in/bruno-almeida-404993212/" target="_blank">Bruno</a><br>
+                        GitHub: <a href="https://github.com/almeidaa11" target="_blank">almeidaa11</a> <br>
                     </p>
                 </div>
             </section>
@@ -261,5 +270,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                disable: 'mobile'
+            });
+        </script>
     </body>
 </html>
